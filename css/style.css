@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Krona One', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* utlity */
+
+.btn {
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    background: #333;
+    padding: 13px 18px;
+    border: none;
+}
+
+.btn:hover {
+    background: orange;
+    color: #333333
+}
+
+.btn-light {
+    display: inline-block;
+    font-size: 10px;
+    color: black;
+    background: white;
+    padding: 13px 18px;
+    border: none;
+    
+}
+
+.btn-light:hover {
+    background: orange;
+    color: #333
+}
+
+/* header */
+
+#navbar {
+    background: #333
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container ul {
+    display: flex;
+    padding-right: 1rem;
+}
+
+#navbar .container ul li {
+    list-style: none;
+}
+
+#navbar .container ul li a {
+    padding: 20px;
+    display: block;
+    
+}
+
+#navbar .container h1 {
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+#navbar ul li a:hover,
+#navbar ul li.current {
+    background: #555;
+    color: orange;
+}
+
+/* section */
+
+#showcase .container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background: url(../img/panificio.jpg) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .container h1 {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#showcase .container p {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.color-primary {
+    color:orange;
+}
+
+/* Section 2 */
+
+#showcase-2 .container {
+    display: flex;
+    height: 350px;
+}
+
+#showcase-2 .container .image {
+    background: url(../img/pane.jpg) no-repeat center center/cover;
+    flex: 1;
+}
+
+#showcase-2 .container .section-text {
+    flex:1;
+    background: #333;
+    text-align: center;
+}
+
+#showcase-2 .container .section-text h1 {
+    color: white;
+    padding: 2rem;
+}
+
+#showcase-2 .container .section-text .text-primary {
+    color: orange;
+}
+
+#showcase-2 .container .section-text p {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+/* Section 3 */
+
+#showcase-3 {
+    display: flex;
+    height: 300;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    background: white;
+    flex: 1;
+}
+
+.box-orange {
+    background: orange;
+    flex: 1;
+}
+
+#icona-1 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 8px;
+}
+
+#titolo {
+    padding-bottom: 2rem;
+}
+
+#showcase-3 p {
+    padding-bottom: 3rem;
+}
+
+/* Section 4 */
+
+#showcase-4 p {
+    padding: 2rem;
+    text-align: center;
+    background: #333;
+    color: white;
+}
